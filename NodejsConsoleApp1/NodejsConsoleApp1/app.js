@@ -18,10 +18,72 @@ function patGotGrounded(message) {
 }
 function chatSensor (message) {
     //FINISH THIS AT A LATER TIME OK XD
+    return false;
 }
 bot.on("message", (message) =>
 {
-    patGotGrounded(message);
+    if (chatSensor == false) {    
+        patGotGrounded(message);
+        if (message.content.startsWith("/")) {
+            commandCenter(message);
+        }
+    }
 })
-
+function commandCenter(message) {
+    theCommand = message.content.slice(0,1);
+    if(theCommand = "help"){
+        
+    }
+    else if(theCommand == "ban"){
+        
+    }
+    else if(theCommand == "kick"){
+        
+    }
+    else if(theCommand == ""){
+        
+    }
+    else if(theCommand = ""){
+        
+    }
+    else if(theCommand = ""){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else if(theCommand == null){
+        
+    }
+    else {
+    
+    }
+}
 bot.login("") // ADD THIS LOCALLY

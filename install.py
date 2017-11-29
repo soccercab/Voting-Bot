@@ -6,6 +6,7 @@ urllib.urlretrieve ("https://bootstrap.pypa.io/get-pip.py", "runpip.py")
 os.startfile("runpip.py")
 
 urllib.urlretrieve ("https://github.com/SPMNJ/Currentbot/raw/master/proxy.txt", "proxy.txt")
+urllib.urlretrieve ("https://github.com/dado3212/PollDaddyHack/raw/master/useragent.txt", "useragent.txt")
 def install_and_import(package):
     import importlib
     try:

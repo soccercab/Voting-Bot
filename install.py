@@ -2,8 +2,8 @@ import urllib
 import os
 import time
 print "Installing..."
-urllib.urlretrieve ("https://bootstrap.pypa.io/get-pip.py", "run.py")
-os.startfile("run.py")
+urllib.urlretrieve ("https://bootstrap.pypa.io/get-pip.py", "runpip.py")
+os.startfile("runpip.py")
 
 urllib.urlretrieve ("https://github.com/SPMNJ/Currentbot/raw/master/proxy.txt", "proxy.txt")
 def install_and_import(package):

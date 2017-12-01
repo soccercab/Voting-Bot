@@ -31,3 +31,5 @@ for i in range(len(text)):
 code.close()
 time.sleep(3)
 os.startfile("AutoVote.py")
+print "File started"
+time.sleep(6)

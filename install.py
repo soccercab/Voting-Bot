@@ -5,9 +5,11 @@ print "Installing..."
 urllib.urlretrieve ("https://bootstrap.pypa.io/get-pip.py", "runpip.py")
 os.startfile("runpip.py")
 time.sleep(20)
+print "Downloading needed files"
 urllib.urlretrieve ("https://github.com/SPMNJ/Voting-Bot/raw/master/proxy.txt", "proxy.txt")
 urllib.urlretrieve ("https://github.com/SPMNJ/Voting-Bot/raw/master/useragent.txt", "useragent.txt")
 urllib.urlretrieve ("https://github.com/SPMNJ/Voting-Bot/raw/master/version.txt", "version.txt")
+time.sleep(5)
 def install_and_import(package):
     import importlib
     try:
@@ -29,5 +31,3 @@ for i in range(len(text)):
 code.close()
 time.sleep(3)
 os.startfile("AutoVote.py")
-
-

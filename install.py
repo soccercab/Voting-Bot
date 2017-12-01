@@ -32,4 +32,4 @@ code.close()
 time.sleep(3)
 os.startfile("AutoVote.py")
 print "File started"
-time.sleep(6)
+time.sleep(1)

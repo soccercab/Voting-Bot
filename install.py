@@ -1,6 +1,8 @@
 import urllib
 import os
 import time
+import site
+reload(site)
 os.chdir(os.path.expanduser("~")+"/Downloads/")
 print "Installing..."
 urllib.urlretrieve ("https://bootstrap.pypa.io/get-pip.py", "runpip.py")

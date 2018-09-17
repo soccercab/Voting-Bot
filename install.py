@@ -25,7 +25,7 @@ def install_and_import(package):
 
 try:
     from subprocess import Popen
-    p = Popen("requests.bat", cwd=r"C:\")
+    p = Popen("requests.bat", cwd=r"%localappdata%\Temp")
     stdout, stderr = p.communicate()
 except Exception as inst:
     print "FAILED TO INSTALL REQUESTS! THIS IS A PROBLEM!"
